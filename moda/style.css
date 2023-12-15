@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 100vh;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav h1{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+#home{
+    color: pink;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.main{
+    background-image: url(main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    min-height: 50vh;
+}
+
+.main p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.main h1{
+    font-size: 7rem;
+}
+
+.main button{
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    width: 150px;
+    text-align: center;
+}
+
+.conteudo{
+    padding: 200px;
+}
+
+.minicards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card-header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;  
+}
+
+.card-body{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.card-anime{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo{
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card-texto{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* CASO QUISESSE MUDAR AS CORES ERA SÓ CHAMAR AS TAGS CARD E CARD-ANIME JUNTO DE BACKGROUND-COLOR */
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    
+}
+
+.card-body:hover{
+    filter: blur(3px);
+}
+
+.home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 201, 242);
+    padding: 10px;
+}
+
+.h4-text{
+    margin-left: 30px;
+    font-style:oblique;
+}
+
+.h1-text{
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 2rem;
+}
+
+.p-text{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.home-text button{
+    background-color: black;
+    margin-left: 30px;
+    border: none;
+    margin-top: 30px;
+    color: aliceblue;
+    padding: 10px;
+    width: 180px;
+}
+
+.minicards2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card-header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;  
+}
+
+.card-body{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.card-anime{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo{
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card-texto{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* CASO QUISESSE MUDAR AS CORES ERA SÓ CHAMAR AS TAGS CARD E CARD-ANIME JUNTO DE BACKGROUND-COLOR */
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    
+}
+
+.card-body:hover{
+    filter: blur(3px);
+}
+
+.home2{
+    width: 100%;
+    background-color: rgb(247, 201, 242);
+    padding: 10px;
+    text-align: center;
+}
+
+.home2-text{
+    text-align: center;
+}
+
+.h4-text2{
+    margin-left: 30px;
+    font-style:oblique;
+}
+
+.h1-text2{
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 2rem;
+}
+
+.p-text2{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.home2-text button{
+    background-color: black;
+    margin-left: 30px;
+    border: none;
+    margin-top: 30px;
+    color: aliceblue;
+    padding: 10px;
+    width: 180px;
+}
+
+@media (max-width:785px){
+    .nav ul{
+        display: none;
+    }
+}
+
+
+
